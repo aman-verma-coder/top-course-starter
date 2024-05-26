@@ -2,9 +2,9 @@ import React from 'react';
 function Navbar () {
   return (
     <div>
-      {/* <nav> */}
-        <h1>Top Courses</h1>
-      {/* </nav> */}
+      <nav className="bg-[#1d1d34] py-4">
+        <h1 className='text-3xl font-bold text-center text-white'>Top Courses</h1>
+      </nav>
     </div>
   );
 }
