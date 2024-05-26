@@ -36,11 +36,10 @@ function App () {
   }, []);
   // console.log ('Courses state:', courses); // Debug statement
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-[#40445c]">
       <div>
         <Navbar />
       </div>
-      <div className="bg-[#40445c]">
         <div>
           <Filter
             filterData={filterData}
@@ -55,7 +54,6 @@ function App () {
             : <Cards courses={courses} category={category} />}
           {/* <Cards courses={courses} /> */}
         </div>
-      </div>
     </div>
   );
 }
